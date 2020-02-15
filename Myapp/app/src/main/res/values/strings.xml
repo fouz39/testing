@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Myapp</string>
+    <string name="tab_text1">Urgent</string>
+    <string name="tab_text2">schegaled</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment1">Hello blank fragment</string>
+    <string name="hello_blank_fragment2">Hello blank fragment</string>
+
+</resources>
