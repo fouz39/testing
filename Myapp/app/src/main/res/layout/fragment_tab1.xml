@@ -70,21 +70,21 @@
             android:textSize="20dp" />
 
         <ImageView
-            android:layout_width="30dp"
+            android:layout_width="wrap_content"
             android:layout_height="50dp"
-            android:src="@drawable/pickuptime"
-            android:layout_marginLeft="55dp"
-            android:layout_marginTop="8dp" />
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/pickuptime" />
 
         <EditText
             android:id="@+id/pickUpTime"
             android:layout_width="118dp"
             android:layout_height="60dp"
-            android:layout_marginLeft="12dp"
+            android:layout_marginLeft="10dp"
             android:ems="10"
             android:hint="Pick Up Time"
             android:inputType="time"
-
+            android:onClick="onButtonClicked"
             />
     </LinearLayout>
 
